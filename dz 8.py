@@ -47,7 +47,7 @@ cursor.execute(sql)
 
 animals = cursor.fetchall()
 
-print("\nВсі звірі:")
+print("Всі звірі:")
 for animal in animals:
     id, name, type = animal
     print(f"{id} | {name} | {type}")
